@@ -2,9 +2,15 @@
   "name": "glyph-sdk",
   "version": "1.0.0",
   "description": "Official Glyph SDK for retrieving blog data via the Glyph API. Built for devs, by devs.",
-  "main": "./dist/index.js",
-  "module": "./dist/in  dex.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "homepage": "https://glyph-cms.vercel.app/",
   "repository": {
     "type": "git",
