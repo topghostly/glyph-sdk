@@ -35,7 +35,7 @@ import { Blog } from "./types";
 export class GlyphClient {
   constructor(
     private userId: string,
-    private baseURL = "http://localhost:3000"
+    private baseURL = "https://glyph-cms.vercel.app"
   ) {}
 
   private async request<T>(

@@ -2,7 +2,7 @@ import { GlyphClient } from "../src";
 
 (async () => {
   try {
-    const client = new GlyphClient("68036806b1327103abb493c1");
+    const client = new GlyphClient("");
 
     const { blogs } = await client.getAllBlogs();
 
