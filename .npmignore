@@ -1,0 +1,7 @@
+/src
+/dist
+
+.env
+.tsconfig.json
+tsup.config.ts
+.vscode
