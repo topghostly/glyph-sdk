@@ -1,6 +1,6 @@
 {
   "name": "glyph-sdk",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Official Glyph SDK for retrieving blog data via the Glyph API. Built for devs, by devs.",
   "main": "./dist/index.js",
   "module": "./dist/in  dex.mjs",

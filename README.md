@@ -2,6 +2,8 @@
 
 # Glyph SDK
 
+[![npm version](https://img.shields.io/npm/v/glyph-sdk)](https://www.npmjs.com/package/glyph-sdk)
+
 The official **Glyph SDK** for interacting with the Glyph blogging platform.  
 Fetch full blog content, summaries, and metadata easily from the Glyph API.
 
